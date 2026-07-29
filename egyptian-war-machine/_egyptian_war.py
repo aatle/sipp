@@ -130,6 +130,7 @@ _TICK_RATE = const(60)
 _x_position = const((128 - 44) // 2)
 
 
+# https://devforum.play.date/t/playing-card-deck-imagetable-free-for-your-card-game/994
 def load_card_layer(card: Card) -> displayio.TileGrid:
     bitmap = displayio.OnDiskBitmap(f"cards-bmp/{get_name(card)}.bmp")
     return displayio.TileGrid(
