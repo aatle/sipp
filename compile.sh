@@ -5,6 +5,7 @@
 COMPILER="C:\Users\user\development\sipp\mpy-cross-windows-10.2.1.static.exe"
 
 # Optimization level from 0 to 3
+# Note that level 3 strips line numbers
 OPT_LEVEL="3"
 
 echo "Using optimization level: -O$OPT_LEVEL"
