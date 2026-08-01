@@ -1,0 +1,8 @@
+FF;9D,DD,57,3D,FD,5D,1D-numbered
+F7;5F,EF,4F,AF,6F,DF,9F-colored
+FE;87,B7,DF,9F,07,XX,XX-fan
+
+The first line is used as the remote for the tank commands.
+
+Format:
+IDENTITY;UP,LEFT,DOWN,RIGHT,CENTER,UP_LEFT,UP_RIGHT[-DESCRIPTION]
