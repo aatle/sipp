@@ -2,7 +2,7 @@ import adafruit_irremote
 import board
 import pulseio
 
-pulse_in = pulseio.PulseIn(board.D2, maxlen=120, idle_state=False)
+pulse_in = pulseio.PulseIn(board.D7, maxlen=120, idle_state=False)
 decoder = adafruit_irremote.GenericDecode()
 
 print("Ready")
