@@ -5,7 +5,7 @@
 [![UCSD SIPP](https://img.shields.io/badge/UCSD%20SIPP-Double%20Award%20Winner-gold.svg)](#awards--recognition)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This repository contains the firmware, hardware integration designs, and engineering documentation for two award-winning embedded systems projects developed during the UC San Diego Summer Internship Preparatory Program (SIPP) (September 2026), hosted by the Department of Electrical and Computer Engineering (ECE).
+This repository contains the firmware, hardware integration designs, and engineering documentation for two award-winning embedded systems projects developed during the UC San Diego Summer Internship Preparatory Program (SIPP) (September 2026, remote), hosted by the Department of Electrical and Computer Engineering (ECE).
 
 Both systems were designed and programmed for the Adafruit Metro M0 Express. Techniques include real-time firmware, non-blocking protocol design, sensor drivers, signal filtering, display multiplexing, and aggressive memory optimization (due to limited 32 KB SRAM).
 
@@ -143,8 +143,9 @@ By default, it uses `-O3`, which strips line numbers (from errors).
 
 ## Author & Acknowledgements
 
-* **Author**: Anthony Le
-* **Projects Partner**: Duke Coats
+* **Authors**:
+    * Anthony Le (programming, electrical)
+    * Duke Coats (mechanical, electrical)
 * **Institution**: University of California, San Diego
 * **Program**: Summer Internship Preparatory Program (SIPP), Department of Electrical & Computer Engineering (ECE)
 * **License**: This project is licensed under the [MIT License](LICENSE).
