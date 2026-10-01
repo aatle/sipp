@@ -2,7 +2,8 @@
 
 # Compiler path, from:
 # https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/mpy-cross/windows/
-COMPILER="C:\Users\user\development\sipp\mpy-cross-windows-10.2.1.static.exe"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+COMPILER="${SCRIPT_DIR}/mpy-cross-windows-10.2.1.static.exe"
 
 # Optimization level from 0 to 3
 # Note that level 3 strips line numbers
