@@ -9,6 +9,8 @@
 
 **Egyptian War Machine** is an embedded gaming and robotics platform built on the Adafruit Metro M0 Express. It features a dual-mode architecture: an interactive two-player reflex card game (Egyptian War / Egyptian Rat Screw) rendered on an I2C OLED with multiplexed 7-segment scoring, and an analog-guided 2-DOF motorized projectile (LEGO) launcher.
 
+[Video](https://drive.google.com/file/d/1T_9Ks87VnYDBUHqNeeMATJvqaxq6kMD4/view?usp=sharing)
+
 ---
 
 ## Highlights

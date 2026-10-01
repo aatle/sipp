@@ -9,6 +9,8 @@
 
 **Tiny Tanks** is an embedded real-time, two-player wireless combat tank game built on the Adafruit Metro M0 Express. The system features differential drive propulsion, an independently actuated pan turret, a continuous-servo projectile firing routine, accelerometer-based impact detection, multi-state battle injury mechanics, and a custom non-blocking NEC infrared communication protocol engine engineered to run reliably within a strict 32 KB RAM size.
 
+[Slides](https://docs.google.com/presentation/d/1WQiBEisVg-VB_Z7gBrMVnCJ5no2UjBza7oZm0h-AR4Y/edit?usp=sharing)
+
 ---
 
 ## Highlights

@@ -18,6 +18,8 @@ Both systems were designed and programmed for the Adafruit Metro M0 Express. Tec
 | [**Tiny Tanks**](tiny-tanks/) | **Best Project (1st Place)** | SIPP Final Project | 7 teams (in assigned track) |
 | [**Egyptian War Machine**](egyptian-war-machine/) | **Best Engineering Design**<br/>**People’s Choice Award** | SIPP Hackathon | 21 teams |
 
+See the program recognition/awards slides [here](https://drive.google.com/file/d/1J1mdxewN5GnLHIc4jr8RVSD7sphNR46r/view?usp=sharing).
+
 ---
 
 ## Projects Overview
@@ -37,6 +39,8 @@ sipp/
 ### 1. [Tiny Tanks](tiny-tanks/) - Real-Time Wireless Combat Tanks
 > **Best Project (Track 3)**, UCSD SIPP Final Project - [Project Documentation](tiny-tanks/README.md)
 
+View the [presentation slides](https://docs.google.com/presentation/d/1WQiBEisVg-VB_Z7gBrMVnCJ5no2UjBza7oZm0h-AR4Y/edit?usp=sharing)!
+
 * **Hardware**: Metro M0 Express, H-Bridge DC motors, 180 degree pan servo, continuous firing servo, MPU6050 6-DOF IMU, RGB status LED.
 * **Firmware & Control**: Differential steering, dynamic impact detection via accelerometer thresholding, battle damage/injury degradation, and single-push projectile firing.
 * **Low-level Protocol Engineering**: Designed NEC decoder with multi-user address filtering to avoid packet collisions across multiple remotes, as well as NEC repeat message timing windows to differentiate identical, unidentifiable NEC repeat messages.
@@ -46,6 +50,8 @@ sipp/
 
 ### 2. [Egyptian War Machine](egyptian-war-machine/) - Reflex Card Game & 2-DOF Projectile Launcher
 > **Best Engineering Design & People’s Choice**, UCSD SIPP Hackathon - [Project Documentation](egyptian-war-machine/README.md)
+
+View the [video](https://drive.google.com/file/d/1T_9Ks87VnYDBUHqNeeMATJvqaxq6kMD4/view?usp=sharing)!
 
 * **Dual-Feature Mechatronics**: Engineered a multi-function embedded entertainment system combining an interactive reflex card game (Egyptian War / Egyptian Rat Screw) and a high-powered motorized pan-tilt projectile (LEGO) launcher.
 * **Signal Conditioning**: Implemented a discrete first-order Exponential Moving Average (EMA) low-pass filter ($\tau = 10\,\text{ms}$, $1000\,\text{Hz}$ tick rate) on dual-axis analog inputs to reduce potentiometer jitter while minimizing control latency.
