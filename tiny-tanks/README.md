@@ -149,7 +149,7 @@ Off-the-shelf CircuitPython IMU libraries consume over 12 KB of heap memory and 
   ```
 * **Threshold Detection**: At $\pm 16\text{g}$ full-scale range, sensitivity is $2048\,\text{LSB/g}$. The Euclidean norm of the acceleration vector is evaluated:
 
-$$\|\vec{a}\| = \frac{\sqrt{a_x^2 + a_y^2 + a_z^2}}{2048.0} \ge 6.0\,\text{g}$$
+$$\lVert\vec{a}\rVert = \frac{\sqrt{a_x^2 + a_y^2 + a_z^2}}{2048.0} \ge 6.0\,\text{g}$$
 
 An impact $\ge 6.0\,\text{g}$ indicates a physical collision or projectile hit, registering damage in the game engine.
 
